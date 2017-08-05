@@ -2,7 +2,7 @@
 This repository contains a simple ReactVR sample that mimics the [Aframe example app](https://github.com/fourkitchens/aframe-boilerplate).
 
 ## [View the demo here](https://fourkitchens.github.io/reactvr-example/)
-![test](https://user-images.githubusercontent.com/1127238/28998594-06ac0f74-79e4-11e7-852a-eabbce213ed6.gif)
+![test](https://user-images.githubusercontent.com/1127238/28998692-6d805f0a-79e6-11e7-838f-4742d84d6396.gif)
 
 ## Requirements
  * Node.js
