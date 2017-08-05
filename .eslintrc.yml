@@ -1,0 +1,28 @@
+parser: babel-eslint
+plugins:
+  - prettier
+extends:
+  - airbnb
+  - prettier
+  - prettier/react
+globals:
+  it: true
+  expect: true
+env:
+  es6: true
+  browser: true
+  node: true
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
+rules:
+  prettier/prettier:
+    - error
+    - singleQuote: true
+      trailingComma: es5
+      parser: flow
+  no-underscore-dangle: 0
+  react/jsx-filename-extension: 0
